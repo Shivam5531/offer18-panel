@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import requests
 from datetime import datetime
 
-app = Flask(app.py)
+app = Flask(__name__)
 
 API_KEY = "DEMO_API_KEY"  # ?? Replace with your real API key
 AFFILIATE_ID = "387190"
