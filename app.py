@@ -6,7 +6,8 @@ app = Flask(__name__)
 
 API_KEY = "M22j7zWtO14vVFGP0rFe591B78o12r"  # ?? Replace with your real API key
 AFFILIATE_ID = "3740"
-API_URL = "https://tracking.offerborn.com/v1/api/advertiser/getperformacereport"
+API_URL = "https://tracking.offerborn.com/v1/api/advertiser/getallconversions
+"
 
 @app.route("/", methods=["GET", "POST"])
 def dashboard():
