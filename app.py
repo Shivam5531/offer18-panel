@@ -4,9 +4,9 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-API_KEY = "DEMO_API_KEY"  # ?? Replace with your real API key
-AFFILIATE_ID = "387190"
-API_URL = "https://api.offer18.com/api/af/report"
+API_KEY = "M22j7zWtO14vVFGP0rFe591B78o12r"  # ?? Replace with your real API key
+AFFILIATE_ID = "3740"
+API_URL = "https://tracking.offerborn.com/v1/api/advertiser/getperformacereport"
 
 @app.route("/", methods=["GET", "POST"])
 def dashboard():
